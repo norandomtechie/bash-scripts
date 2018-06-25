@@ -30,29 +30,3 @@ do
 done
 
 exit
-
-
-##############################################################################################
-IGNORE ALL TEXT HERE:
-
-###################################################
-# Custom commands
-gsettings set org.gnome.mutter overlay-key "'Super_L'"
-gsettings set org.pantheon.desktop.gala.behavior overlay-action "'wingpanel --toggle-indicator=app-launcher'"
-
-alias update-bash='source ~/.bashrc'
-alias download='bash ~/download.sh'
-alias headlines='bash ~/headlines.sh'
-alias fixwifi='cd ~/rtlwifi_new && sudo modprobe -rv rtl8723be && sudo modprobe -v rtl8723be ant_sel=2 && cd ~'
-alias settings='nano ~/.bashrc'
-alias hennessy='ssh menon18@ecegrid.ecn.purdue.edu'
-alias piConnect='ssh nirajmmenon@128.211.231.220'
-alias settings='nano ~/.bashrc'
-alias mysshkey='cat ~/.ssh/id_rsa.pub'
-alias socks5='ssh -D 9056 -f -C -q -N ubuntu@ec2-35-154-146-143.ap-south-1.compute.amazonaws.com && ps aux | grep ssh'
-alias mountWin='sudo mount -o ro /dev/sda4 ~/Windows'
-
-export PATH=~/xmr-stak/build/bin:$PATH
-fortune | cowthink -g
-echo
-###################################################
