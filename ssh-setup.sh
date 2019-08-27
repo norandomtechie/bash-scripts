@@ -2,7 +2,7 @@
 
 # Author: Niraj Menon, 2018
 # This script sets up RSA public-private key pair access to the server passed as an argument to this script.
-# Part of the reason why I learnt bash was just so I could do this, lmao.
+# Part of the reason why I learnt bash was just so I could do this!
 
 # To the layman, this script lets you connect without a password to a server you provide using a pair of files
 # known to both you and the server, called a key file pair. You have the public and private keys, and the
